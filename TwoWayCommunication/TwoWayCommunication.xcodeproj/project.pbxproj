@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B240A0042361695900A7608D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B240A0032361695900A7608D /* AppDelegate.swift */; };
+		B240A0062361695900A7608D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B240A0052361695900A7608D /* SceneDelegate.swift */; };
+		B240A0082361695900A7608D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B240A0072361695900A7608D /* ContentView.swift */; };
+		B240A00A2361695C00A7608D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B240A0092361695C00A7608D /* Assets.xcassets */; };
+		B240A00D2361695C00A7608D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B240A00C2361695C00A7608D /* Preview Assets.xcassets */; };
+		B240A0102361695C00A7608D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B240A00E2361695C00A7608D /* LaunchScreen.storyboard */; };
+		B240A0192361B99C00A7608D /* EnviromentValueSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B240A0182361B99C00A7608D /* EnviromentValueSampleView.swift */; };
+		B240A01B2361BB3100A7608D /* PreferenceKeySampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B240A01A2361BB3100A7608D /* PreferenceKeySampleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B240A0002361695900A7608D /* TwoWayCommunication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoWayCommunication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B240A0032361695900A7608D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B240A0052361695900A7608D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B240A0072361695900A7608D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B240A0092361695C00A7608D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B240A00C2361695C00A7608D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B240A00F2361695C00A7608D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B240A0112361695C00A7608D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B240A01723616AD300A7608D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B240A0182361B99C00A7608D /* EnviromentValueSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviromentValueSampleView.swift; sourceTree = "<group>"; };
+		B240A01A2361BB3100A7608D /* PreferenceKeySampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeySampleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2409FFD2361695900A7608D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2409FF72361695900A7608D = {
+			isa = PBXGroup;
+			children = (
+				B240A01723616AD300A7608D /* README.md */,
+				B240A0022361695900A7608D /* TwoWayCommunication */,
+				B240A0012361695900A7608D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B240A0012361695900A7608D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B240A0002361695900A7608D /* TwoWayCommunication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B240A0022361695900A7608D /* TwoWayCommunication */ = {
+			isa = PBXGroup;
+			children = (
+				B240A0032361695900A7608D /* AppDelegate.swift */,
+				B240A0052361695900A7608D /* SceneDelegate.swift */,
+				B240A0072361695900A7608D /* ContentView.swift */,
+				B240A0182361B99C00A7608D /* EnviromentValueSampleView.swift */,
+				B240A01A2361BB3100A7608D /* PreferenceKeySampleView.swift */,
+				B240A0092361695C00A7608D /* Assets.xcassets */,
+				B240A00E2361695C00A7608D /* LaunchScreen.storyboard */,
+				B240A0112361695C00A7608D /* Info.plist */,
+				B240A00B2361695C00A7608D /* Preview Content */,
+			);
+			path = TwoWayCommunication;
+			sourceTree = "<group>";
+		};
+		B240A00B2361695C00A7608D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B240A00C2361695C00A7608D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2409FFF2361695900A7608D /* TwoWayCommunication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B240A0142361695C00A7608D /* Build configuration list for PBXNativeTarget "TwoWayCommunication" */;
+			buildPhases = (
+				B2409FFC2361695900A7608D /* Sources */,
+				B2409FFD2361695900A7608D /* Frameworks */,
+				B2409FFE2361695900A7608D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoWayCommunication;
+			productName = TwoWayCommunication;
+			productReference = B240A0002361695900A7608D /* TwoWayCommunication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2409FF82361695900A7608D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Cochlear;
+				TargetAttributes = {
+					B2409FFF2361695900A7608D = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = B2409FFB2361695900A7608D /* Build configuration list for PBXProject "TwoWayCommunication" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2409FF72361695900A7608D;
+			productRefGroup = B240A0012361695900A7608D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2409FFF2361695900A7608D /* TwoWayCommunication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2409FFE2361695900A7608D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B240A0102361695C00A7608D /* LaunchScreen.storyboard in Resources */,
+				B240A00D2361695C00A7608D /* Preview Assets.xcassets in Resources */,
+				B240A00A2361695C00A7608D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2409FFC2361695900A7608D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B240A0042361695900A7608D /* AppDelegate.swift in Sources */,
+				B240A0062361695900A7608D /* SceneDelegate.swift in Sources */,
+				B240A0082361695900A7608D /* ContentView.swift in Sources */,
+				B240A01B2361BB3100A7608D /* PreferenceKeySampleView.swift in Sources */,
+				B240A0192361B99C00A7608D /* EnviromentValueSampleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B240A00E2361695C00A7608D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B240A00F2361695C00A7608D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B240A0122361695C00A7608D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B240A0132361695C00A7608D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B240A0152361695C00A7608D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TwoWayCommunication/Preview Content\"";
+				DEVELOPMENT_TEAM = EA7WUTXAK6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TwoWayCommunication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cochlear.TwoWayCommunication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B240A0162361695C00A7608D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TwoWayCommunication/Preview Content\"";
+				DEVELOPMENT_TEAM = EA7WUTXAK6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TwoWayCommunication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cochlear.TwoWayCommunication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2409FFB2361695900A7608D /* Build configuration list for PBXProject "TwoWayCommunication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B240A0122361695C00A7608D /* Debug */,
+				B240A0132361695C00A7608D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B240A0142361695C00A7608D /* Build configuration list for PBXNativeTarget "TwoWayCommunication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B240A0152361695C00A7608D /* Debug */,
+				B240A0162361695C00A7608D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2409FF82361695900A7608D /* Project object */;
+}
